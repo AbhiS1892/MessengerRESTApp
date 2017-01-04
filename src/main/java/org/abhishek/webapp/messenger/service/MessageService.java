@@ -14,6 +14,7 @@ public class MessageService {
 	public MessageService(){
 		messages.put(1L, new Message(1, "ABC", "ABHISHEK"));
 		messages.put(2L, new Message(2, "ABHI", "ABHISHEK"));
+		messages.put(3L, new Message(3, "AB", "VASU"));
 	}
 	
 	public List<Message> getAllMessages(){
